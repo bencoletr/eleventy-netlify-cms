@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: My second Post
 description: The second post on the LSPD Portal
-featuredImage: /images/uploads/aso.png
+featuredImage: /images/aso.png
 date: 2021-09-17
 ---
 
