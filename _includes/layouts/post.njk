@@ -1,6 +1,28 @@
 --- 
 layout: layouts/base.njk 
 ---
-<h2>{{ title }}</h2>
-<img src="{{ featuredImage | url }}" alt="{{ featuredImage }}"></img>
-<p>{{ content | safe }}</p>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 blog-main border border-dark">
+            <!-- Post content-->
+            <article>
+                <!-- Post header-->
+                <header class="mb-4">
+                    <!-- Post title-->
+                    <h1 class="fw-bolder mb-1 font-italic border-bottom text-center text-warning">{{ title }}</h1>
+                    <!-- Post meta content-->
+                    <div class="text-muted fst-italic mb-2 font-italic border-bottom text-center">{{date}}</div>
+                </header>
+                <!-- Preview image figure-->
+                <div class="text-center">
+                <figure class="mb-4"><img class="img-fluid rounded" src="{{ featuredImage | url }}" alt="{{ featuredImage }}"></figure>
+                </div>
+                <!-- Post content-->
+                <section class="mb-5">
+                    <p class="fs-5 mb-4 border-top">{{ content | safe }}</p>
+                </section>
+            </article>
+        </div>
+    </div>
+</div>

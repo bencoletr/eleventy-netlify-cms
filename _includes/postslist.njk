@@ -1,13 +1,18 @@
-<ul>
-    {% for post in postslist %}
-        <li>
-            <strong>
-                <a href="{{ post.url | url }}">{{ post.data.title }}</a>
-            </strong>
-            -
-            <span>
-                {{ post.data.description }}
-            </span>
-        </li>
-    {% endfor %}
-</ul>
+<h2 class="text-center text-warning">LSPD Press Releases</h2>
+<div class="row mb-2">
+{% for post in postslist %}
+    <div class="col-md-6">
+        <div class="card flex-md-row mb-4 box-shadow h-md-250">
+        <div class="card-body d-flex flex-column align-items-start">
+            <h3 class="mb-0">
+            <a class="text-dark" href="{{ post.url | url }}">{{ post.data.title }}</a>
+            </h3>
+            <div class="mb-1 text-muted">{{ post.data.date}}</div>
+            <p class="card-text mb-auto">{{ post.data.description }}</p>
+            <a href="{{ post.url | url }}" class="btn btn-dark">Continue reading</a>
+        </div>
+        <img class="card-img-right flex-auto d-none d-md-block" alt="{{post.data.featuredImage}}" style="width: 200px; height: 250px;" src="{{post.data.featuredImage}}" data-holder-rendered="true">
+        </div>
+    </div>
+{% endfor %}
+</div>
