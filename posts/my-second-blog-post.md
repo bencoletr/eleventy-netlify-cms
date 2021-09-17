@@ -7,8 +7,6 @@ description: It has come to the attention of the Chief of Police that the
 date: 2021-09-16T23:00:00.000Z
 featuredImage: /images/uploads/obey-and-survive.png
 ---
-NEW WEEKLY HEIST EVENT the PD EVIDENCE HEIST
-
 It has come to the attention of the Chief of Police that the evidence locker is bursting with high net worth of evidence that needs to be taken to a secure facility and destroyed.
 
 A leak in the PD has reported to local criminal gangs that the weekly event will take place on Saturday between 8pm and 9pm UK time. The armoured transport van will leave from Mission Row PD to Humane Labs where the contents will be safely destroyed.
