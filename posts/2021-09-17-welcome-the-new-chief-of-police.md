@@ -1,9 +1,8 @@
 ---
 layout: layouts/post.njk
 title: Welcome the New Chief of Police
-description: After a few weeks of the LSPD combatting crime under the watchful
-  eye of Acting Chief Captain Robert Graves, the high commissioner has appointed
-  John Dixon Chief of the LSPD after a successful 15 year career in Vice City.
+description: The high commissioner has appointed John Dixon Chief of the LSPD
+  after a successful 15 year career in the Vice City Police Force.
 date: 2021-09-17T23:00:00.000Z
 featuredImage: /images/uploads/asopd.png
 ---
