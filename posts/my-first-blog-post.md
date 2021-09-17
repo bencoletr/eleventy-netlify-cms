@@ -1,9 +1,9 @@
 ---
 layout: layouts/post.njk
-title: My First Post
-description: The first post on the LSPD Portal
-featuredImage: /images/aso.png
+title: Los Santos Police Department Web Page
+description: This is the first post on the LSPD Website!
 date: 2021-09-17
+featuredImage: /images/uploads/asopd.png
 ---
 
 Welcome to the First Press Release of the LSPD!
